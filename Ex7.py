@@ -3,13 +3,10 @@ import requests
 response = requests.get("https://playground.learnqa.ru/ajax/api/compare_query_type")
 #2
 response = requests.head("https://playground.learnqa.ru/ajax/api/compare_query_type")
-
 #3
 response = requests.post("https://playground.learnqa.ru/ajax/api/compare_query_type", data = 'post')
 
 #4
-
-
                                       #проверяем метод GET
 method_lst = ['get', 'post', 'put', 'delete']
 
