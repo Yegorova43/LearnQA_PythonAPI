@@ -33,6 +33,3 @@ for password in uniq_passes_list:
 
 
 
-
-
-
