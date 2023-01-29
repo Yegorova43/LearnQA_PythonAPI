@@ -44,5 +44,3 @@ class TestUserAuth(BaseCase):
 
         Assertions.assert_json_value_by_name(response2, "user_id", 0, f"User is authorized with conditiob {condition}")
 
-.
-
